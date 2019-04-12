@@ -75,6 +75,24 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restri
 * mysql> update user set authentication_string=PASSWORD("password") where User="aries";
 * mysql> FLUSH PRIVILEGES;
 
+### Invalid default value for 'date_available'
+
+`/etc/mysql/mysql.conf.d/mysqld.cnf`
+
+```
+[mysqld]
+sql_mode = "STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+
+```
+
+ATTENTION:
+
+remove the `NO_ZERO_IN_DATE,NO_ZERO_DATE` in it
+
+check by using
+
+`show variables like 'sql_mode';` in mysql
+
 ---
 
 # Nginx
