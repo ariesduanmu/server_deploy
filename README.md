@@ -1,2 +1,3 @@
-# server_deploy
-Doc about how to deploy server
+# Sys Note
+
+Note about install tools in differnet systems
