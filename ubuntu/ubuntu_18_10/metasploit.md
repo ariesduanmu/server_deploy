@@ -35,14 +35,15 @@ Required ruby-2.6.5 is not installed.
 To install do: 'rvm install "ruby-2.6.5"'
 ```
 
-* rvm install "ruby-2.6.5"
-* gem install bundler
-* bundle install
+* `rvm install "ruby-2.6.5"`
+* `gem install bundler`
+* `bundle install`
 
 ## CONFIG DATABASE
 
-* cd config
-* cp database.yml.example database.yml
+* `cd config`
+* `cp database.yml.example database.yml`
+* `vi database.yml`
 
 ```
 # To set up a metasploit database, follow the directions hosted at:
@@ -80,4 +81,4 @@ test:
 
 ## READY GO
 
-* ./msfconsole
+* `./msfconsole`
