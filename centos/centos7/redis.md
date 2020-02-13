@@ -24,5 +24,18 @@
 ## able for remote visit
 
 * `vim /etc/redis/6379.conf`
+
 *change `bind 127.0.0.1` to `0.0.0.0`*
 *remember to check the firewall* 
+
+## adduser
+
+* adduser redis -d /var/lib/redis
+
+## YUM
+
+* `yum install epel-release`
+* `yum update`
+* `yum install redis`
+* `systemctl start redis`
+* `systemctl enable redis`
