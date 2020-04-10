@@ -29,3 +29,7 @@ Note about install tools in differnet systems
 * [ssh](https://github.com/ariesduanmu/sys_notes/blob/master/ubuntu/ubuntu_18_10/ssh.md)
 * [static ip](https://github.com/ariesduanmu/sys_notes/blob/master/ubuntu/ubuntu_18_10/static_ip.md)
 * [visualsvn](https://github.com/ariesduanmu/sys_notes/blob/master/ubuntu/ubuntu_18_10/visualsvn.md)
+
+### [juniper olive](https://github.com/ariesduanmu/sys_notes/tree/master/juniper_olive)
+
+* [static ip](https://github.com/ariesduanmu/sys_notes/blob/master/juniper_olive/static_ip.md)
