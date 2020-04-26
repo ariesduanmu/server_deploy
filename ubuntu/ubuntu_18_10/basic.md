@@ -103,3 +103,7 @@ iface enp3s0:1 inet static
 #ListenAddress 0.0.0.0
 ListenAddress 192.168.0.92
 ```
+
+## rabbitmq
+
+* apt-get install rabbitmq-server -yq
