@@ -4,6 +4,8 @@ yum -y install yum-utils
 
 ## mysql5.7 在centos上的安装
 
+* wget http://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
+
 * yum localinstall mysql80-community-release-el7-3.noarch.rpm
 * yum repolist enabled | grep "mysql.*-community.*"
 * yum repolist all | grep "mysql"
