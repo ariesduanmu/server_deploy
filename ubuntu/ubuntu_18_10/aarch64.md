@@ -15,3 +15,5 @@ download
 `/lib64/libc.so.6`
 
 `https://ughe.github.io/data/2018/libc.so.6`
+
+`qemu-aarch64 /home/ludian/RE/handy`

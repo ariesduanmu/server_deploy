@@ -5,3 +5,7 @@
 * sudo systemctl start jenkins
 * sudo systemctl enable jenkins
 * sudo systemctl status jenkins
+
+配置文件
+
+* `/etc/default/jenkins`
