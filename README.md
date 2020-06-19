@@ -38,3 +38,4 @@ Note about install tools in differnet systems
 ### [gitlab](gitlab)
 
 * [rsync+restart_server](gitlab/rsync_restartserver.md)
+* [cache](gitlab/cache.md)
