@@ -1,3 +1,4 @@
+```
 stages:
   - build
 
@@ -16,3 +17,4 @@ deploy:
     - ssh -tt root@192.168.0.10 "echo '$ROOT_KEY' | sudo -S supervisorctl restart server"
   tags:
     - doc
+```
