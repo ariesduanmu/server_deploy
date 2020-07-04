@@ -26,9 +26,10 @@ sudo apt-get install gitlab-ce
 
 
 # default running port is 8080, well mine 8080 is used before, need to set
-# unicorn['worker_processes'] to other port
+# unicorn['port'] to other port
 sudo gitlab-ctl reconfigure
 
 sudo gitlab-ctl start
 # sudo gitlab-ctl stop
 
+# config file /etc/gitlab/gitlab.rb
