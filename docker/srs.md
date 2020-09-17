@@ -15,3 +15,12 @@
 ### 4. run srs
 
 * `./objs/srs -c conf/srs.conf`
+
+
+### 5. run in background
+
+```
+docker run -d -v <host srs path>:/tmp/srs -w /tmp/srs/trunk -p <host port>:1935 ossrs/srs:dev ./objs/srs -c conf/srs.conf
+```
+
+docker run -it -v /home/ludian/srs:/tmp/srs -w /tmp/srs/trunk -p 1937:1935 ossrs/srs:dev bash
