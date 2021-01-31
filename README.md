@@ -14,6 +14,10 @@ Note about install tools in differnet systems
 * [ufw](centos/centos7/ufw.md)
 * [webmin](centos/centos7/webmin.md)
 
+### [centos8](centos/centos8)
+
+* [suitecrm](centos/centos8/suitecrm.md)
+
 ### [Ubuntu18.4](ubuntu/ubuntu_18_10)
 
 * [firewall](ubuntu/ubuntu_18_10/firewall.md)
